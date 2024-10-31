@@ -1,0 +1,7 @@
+create database homeJek;
+
+CREATE USER 'homeJek' IDENTIFIED BY '//homeJek2022++';
+
+ALTER DATABASE homeJek CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+grant all PRIVILEGES on homeJek.* to 'homeJek';
